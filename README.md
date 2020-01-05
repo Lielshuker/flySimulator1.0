@@ -1,5 +1,3 @@
-<snippet>
-  <content><![CDATA[
 # flySimulator1.0
 link to git hub: 
 this project is 
