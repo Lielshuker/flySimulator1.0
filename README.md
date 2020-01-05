@@ -1,6 +1,6 @@
 # flySimulator1.0
 link to git hub: 
-this project is 
+git@github.com:Lielshuker/flySimulator1.0.git
 ## Installation
 to start the simulator ypu need to install flightgear simulator from the link: https://www.flightgear.org/
 or do the following command at the terminal:
@@ -16,8 +16,12 @@ in addintion, add to the project file that give the simultor Instructions how to
 compile the main.cpp with argument that contains the name file that the simulator will read the information from.
 gcc main.cpp <argumen>
 for example gcc main.cpp fly.txt
-## History
-TODO: Write history
+## Documentation 
+this project get fly Instructions txt file, the file being read by lexar function and than parser funcation that open comands.
+each command have the responsibility to do something with the simulator:
+  * #### openDataServer - responsible for open thread that run sever and listing on the given port and
+    and reading from generic_small. the information from genric_small get insert into map and like this     we can get them in o(1).
+  * #### ConnectControlClient - responsible 
 ## Credits
 * adi ungar
 * liel shuker
