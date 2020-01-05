@@ -4,9 +4,9 @@ this project is
 ## Installation
 to start the simulator ypu need to install flightgear simulator from the link: https://www.flightgear.org/
 or do the following command at the terminal:
-..* sudo add-apt-repository ppa:saiarcot895/flightgear
-..* sudo apt-get update
-..* sudo apt-get install flightgear
+* sudo add-apt-repository ppa:saiarcot895/flightgear
+* sudo apt-get update
+* sudo apt-get install flightgear
 after getting the simulator, there're several change at the setting:
 --generic=socket,out,10,127.0.0.1,5400,tcp,generic_small   
 --telnet=socket,in,10,127.0.0.1,5402,tcp
