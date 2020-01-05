@@ -17,11 +17,22 @@ compile the main.cpp with argument that contains the name file that the simulato
 gcc main.cpp <argumen>
 for example gcc main.cpp fly.txt
 ## Documentation 
-this project get fly Instructions txt file, the file being read by lexar function and than parser funcation that open comands.
+this project get fly Instructions txt file, the file being read by lexar function and than parser funcation that open commands.
 each command have the responsibility to do something with the simulator:
-  * #### openDataServer - responsible for open thread that run sever and listing on the given port and
+  * ### openDataServer:
+    responsible for open thread that run sever and listing on the given port and
     and reading from generic_small. the information from genric_small get insert into map and like this     we can get them in o(1).
-  * #### ConnectControlClient - responsible 
+  * ### ConnectControlClient:
+    responsible for creating theard that create client that will listen to the givan port and ip and         will sent information from the client to the server.
+  * ### var:
+    responsible on the variables of the airplane. get into the var info from the simulator (by           the server) and send from the var info for the simulator (by the client).
+    the var responsible for the infromation from and to the simulator.
+  * ### while:
+    responsible for while loop.
+  * ### if:
+    responsible for if condition.
+  * ### print:
+    responsible for print the string / varible in after the print.
 ## Credits
 * adi ungar
 * liel shuker
